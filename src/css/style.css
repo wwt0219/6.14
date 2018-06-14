@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,
+body,
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap dl {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.wrap dl dd {
+    width: 50%;
+}
+
+.wrap dl dd img {
+    width: 100%;
+}
+
+.wrap dl dd h2 {
+    font-size: 14px;
+}
+
+.wrap dl dt h1 {
+    font-size: 14px;
+}
